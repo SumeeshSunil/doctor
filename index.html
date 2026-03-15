@@ -3,39 +3,259 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Prescripto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
     <header>
-        <nav class="navbar">
-            <div class="navbar-heading">
-                <img src="./assets/logos/Group 4123.png" alt="">
-                <P>Prescripto</P>
-            </div>
-            <div class="navbar-links">
-                <a href="#">HOME</a>
-                <a href="#">ALL DOCTORS</a>
-                <a href="#">ABOUT</a>
-                <a href="#">CONTACT</a>
-            </div>
-            <div class="navbar-btn">
-                <button type="button">Create account</button>
+        <nav>
+            <div class="header">
+                <div class="logo">
+                    <img id="logo" src="./assets/images/logo-prescripto.svg" />
+                </div>
+                <div class="navbar">
+                    <ul class="navbar-links">
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#" class="nav-link">All Doctors</a></li>
+                        <li><a href="#" class="nav-link">About</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-btn">
+                    <button id="create-btn">Create account</button>
+                </div>
+
             </div>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+
+
+    <main>
+
+        <section id="book-appointment">
+            <div class="appointment">
+                <div class="appointment-head">
+                    <h1>Book Appointment With Trusted Doctors</h1>
+                    <div class="img-1"><img class="group" src="./assets/images/group_profiles.png">
+                        <p>Simply browse through our extensive list of trusted doctors, schedule your appointment
+                            hassle-free.</p>
+                    </div>
+                    <button id="book-appointment-btn">Book appointment &rarr;</button>
+                </div>
+
+                <div class="appointment-img">
+                    <img class=" appointment-img1" src="./assets/images/doc-header-img.png">
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="speciality">
+                <h2 id="speciality-head">Find by Speciality </h2>
+                <p id="speciality-para">Simply browse through our extensive list of trusted doctors, schedule your
+                    appointment
+                    hassle-free.</p>
+                <article>
+                    <div class="type-row">
+                        <figure>
+                            <img class="speciality-img" src="./assets/images/General_physician.svg">
+                            <figcaption class="img-cap">General physician</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="speciality-img" src="./assets/images/Gynecologist.svg">
+                            <figcaption class="img-cap">Gynecologist</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="speciality-img" src="./assets/images/Dermatologist.svg">
+                            <figcaption class="figcap">Dermatologist</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="speciality-img" src="./assets/images/Pediatricians.svg">
+                            <figcaption class="img-cap">Pediatricians</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="speciality-img" src="./assets/images/Neurologist.svg">
+                            <figcaption class="img-cap">Neurologist</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="speciality-img" src="./assets/images/Gastroenterologist.svg">
+                            <figcaption class="img-cap">Gastroenterologist</figcaption>
+                        </figure>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="top-dr">
+                <h2 id="speciality-head">Top Doctors to Book</h2>
+                <p id="speciality-para">Simply browse through our extensive list of trusted doctors.</p>
+                <article>
+                    <dv class="doctors1">
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/image 388.png" alt="Doctor 1"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (2) 1.png" alt="Doctor 2"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (3) 1.png" alt="Doctor 3"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (4) 1.png" alt="Doctor 4"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (5) 1.png" alt="Doctor 5"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+                    </dv>
+                    <dv class="doctors2">
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/image 388.png" alt="Doctor 1"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (2) 1.png" alt="Doctor 2"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (3) 1.png" alt="Doctor 3"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (4) 1.png" alt="Doctor 4"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                        <div class="doct">
+                            <div class="doctorPic"><img src="./assets/images/file (5) 1.png" alt="Doctor 5"></div>
+                            <div class="doctordetails">
+                                <p id="status"><span class="dot"></span> Available</p>
+                                <h3>Dr. Richard James</h3>
+                                <p>General Physician</p>
+                            </div>
+                        </div>
+
+                    </dv>
+                </article>
+                <button id="more">more</button>
+            </div>
+        </section>
+
+
+        <section>
+
+            <div class="create-acc">
+                <div class="acc-text">
+                    <h1 id="acc-head">Book Appointment With <br>100+ Trusted Doctors</h1>
+                    <button id="acc-btn">Create account</button>
+                </div>
+                <div class="acc-img">
+                    <img id="img" src="./assets/images/appointment-doc-img.png">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+
+
+            <div class="foot-des">
+                <img id="footer-img" src="./assets/images/logo-footer.svg">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.</p>
+            </div>
+
+            <div class="foot-links">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="foot-contact">
+                <h4>GET IN TOUCH</h4>
+                <ul>
+                    <li>+91 9188582004</li>
+                    <li>sumeeshsunil11@gmail.com</li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="foot-copy">
+            <p>Copyright © 2024 GreatStack - All Right Reserved.</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
